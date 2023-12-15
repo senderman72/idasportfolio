@@ -1,0 +1,32 @@
+/* Contact.css */
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  box-shadow: 21px -4px 104px 10px rgba(99, 83, 28, 0.59);
+  -webkit-box-shadow: 21px -4px 104px 10px rgba(99, 83, 28, 0.59);
+  -moz-box-shadow: 21px -4px 104px 10px rgba(99, 83, 28, 0.59);
+
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.info-label {
+  font-weight: bold;
+  margin-right: 10px;
+}

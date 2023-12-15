@@ -1,0 +1,84 @@
+/* MainContent.css */
+
+.main-content-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+
+  margin: 0 auto;
+  padding: 20px;
+  background-color: inherit;
+}
+
+.work-pic {
+  height: 350px;
+  width: 350px;
+
+  border-radius: 10px;
+  box-shadow: 21px -4px 104px 10px rgba(99, 83, 28, 0.59);
+  -webkit-box-shadow: 21px -4px 104px 10px rgba(99, 83, 28, 0.59);
+  -moz-box-shadow: 21px -4px 104px 10px rgba(99, 83, 28, 0.59);
+}
+
+.balls {
+  font-weight: 500;
+  font-size: 20px;
+  background-color: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.ball-a {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(226, 209, 101, 1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 21px -4px 104px 10px rgba(99, 83, 28, 0.59);
+  -webkit-box-shadow: 21px -4px 104px 10px rgba(99, 83, 28, 0.59);
+  -moz-box-shadow: 21px -4px 104px 10px rgba(99, 83, 28, 0.59);
+}
+.ball-b {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(161, 218, 62, 1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 21px -4px 104px 10px rgba(99, 83, 28, 0.59);
+  -webkit-box-shadow: 21px -4px 104px 10px rgba(99, 83, 28, 0.59);
+  -moz-box-shadow: 21px -4px 104px 10px rgba(99, 83, 28, 0.59);
+}
+.ball-c {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(75, 175, 221, 1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 21px -4px 104px 10px rgba(99, 83, 28, 0.59);
+  -webkit-box-shadow: 21px -4px 104px 10px rgba(99, 83, 28, 0.59);
+  -moz-box-shadow: 21px -4px 104px 10px rgba(99, 83, 28, 0.59);
+}
+
+header {
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 10px;
+
+  box-shadow: 21px -4px 104px 10px rgba(99, 83, 28, 0.59);
+  -webkit-box-shadow: 21px -4px 104px 10px rgba(99, 83, 28, 0.59);
+  -moz-box-shadow: 21px -4px 104px 10px rgba(99, 83, 28, 0.59);
+}

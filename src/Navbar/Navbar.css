@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-container {
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 234, 0);
+  padding: 5px;
+  width: 100%;
+  z-index: 1000;
+
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+}
+
+.nav-pic {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid rgb(76, 104, 215);
+  object-fit: cover;
+}
+
+.linkedin-logo {
+  height: 50px;
+  width: 50px;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.Hr-pic {
+  height: 50px;
+  width: 50px;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  object-fit: cover;
+}

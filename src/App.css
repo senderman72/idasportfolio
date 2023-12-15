@@ -1,0 +1,16 @@
+body {
+  height: 100%;
+  background-color: #fff5cc;
+
+  transition: background-color 0.5s, color 0.5s;
+
+  font-family: "Montserrat";
+}
+
+.Bouncing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 30;
+}
